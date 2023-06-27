@@ -29,8 +29,6 @@ function ColorGame() {
             const b = Math.floor(Math.random() * 256);
             return `rgb(${r}, ${g}, ${b})`;
         }
-
-        // Get references to DOM elements
         const squares = document.querySelectorAll('.square');
         const colorDisplay = document.getElementById('colordisplay');
         const msgDisplay = document.querySelector('#msg');
@@ -126,7 +124,6 @@ function ColorGame() {
                 <div className="square"></div>
                 <div className="square"></div>
             </div>
-            {/* The JavaScript functionality will be added later */}
         </div>
     );
 }
